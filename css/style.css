@@ -1,0 +1,69 @@
+body {
+	font-family: sans-serif;
+	margin: 2%;
+	font-size: 80%;
+	line-height: 1.5;
+}
+
+#header {
+	margin: 0;
+	position: fixed;
+	font-size:13px;
+	background-color: #222;
+	left:0;
+	right: 0;
+	top: 0;
+	color: white;
+	padding: 2%;
+	line-height: 1%;
+}
+
+#news {
+	padding-top: 2.5%;
+}
+
+a.item {
+	display: block;
+	text-decoration: none;
+	color: #222;
+	background-color: #e0e0e0;
+	padding: 0.5% 1.5%;
+	margin-bottom: 1px;
+
+}
+
+a:hover {
+	background-color: #ccc;
+}
+
+.author {
+	font-weight:bold;
+
+}
+
+.time {
+	color: #aaa;
+}
+
+#footer {
+	margin: 0;
+	position: fixed;
+	font-size:10px;
+	background-color: #222;
+	left:0;
+	right: 0;
+	bottom: 0;
+	color: white;
+	padding: 1% 2%;
+	line-height: 1%;
+	min-height: 20px;
+}
+
+.sugestion {
+	float: left;
+	margin-top: 10px;
+}
+.fork {
+	float: right;
+	margin-bottom: -7px;
+}
